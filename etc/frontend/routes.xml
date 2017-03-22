@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author Hervé Guétin <herve.guetin@gmail.com> <@herveguetin>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="herve_ajaxlayout" frontName="herve_ajaxlayout">
+            <module name="Herve_AjaxLayout"/>
+        </route>
+    </router>
+</config>
